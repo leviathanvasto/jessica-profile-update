@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+   
+}
+
+.all-content {
+    background-color: hsl(0, 0%, 12%);
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    max-width: 350px;
+    border-radius:10px;
+    padding: 50px 35px;
+    text-align: center;
+    margin: auto;
+    display: block;
+    
+   
+}
+
+.name {
+    color: hsl(0, 0%, 100%);
+    font-size: 24px;
+    margin: 7px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.locate {
+    color: hsl(75, 94%, 57%);
+    font-weight: bold;
+}
+
+.text {
+    color: hsl(0, 0%, 100%);
+    margin: 20px;
+}
+
+.links{
+    color: #000000;
+	width: 100%;
+	cursor: pointer;
+    
+}
+
+.links{
+    font-weight: bold;
+}
+
+.links .one {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    padding: 15px;
+    transition: all 0.3s ease-in;
+	
+}
+
+.links .two {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 15px;
+    
+}
+
+.links .three {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.links .four {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 15px;
+}
+
+.links .five {
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(0, 0%, 20%);
+    border-radius: 7px;
+    margin-top: 15px;
+    padding: 15px;
+}
+.links .one:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .two:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .three:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .four:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+.links .five:hover{
+    background-color: hsl(75, 94%, 57%);
+	color: #000;
+    font-weight: bold
+}
+
+.image img {
+    border-radius: 100px;
+    margin: auto;
+    display: block;
+    max-width: 30%;
+}
+
+ul {
+    list-style-type: none
+}
+
+
+@media (max-width: 800px){.content-all {
+    max-width: 100%; 
+    margin:1rem;
+    padding: 1rem;
+  }
+
+}
